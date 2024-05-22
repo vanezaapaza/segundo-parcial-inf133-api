@@ -79,7 +79,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Detalles del Tarea",
+                        "description": "Detalles de la Tarea",
                         "content": {
                             "application/json": {
                                 "schema": {
@@ -89,7 +89,7 @@
                         }
                     },
                     "404": {
-                        "description": "Tarea no encontrado"
+                        "description": "Tarea no encontrada"
                     }
                 }
             },
@@ -121,7 +121,7 @@
                 },
                 "responses": {
                     "200": {
-                        "description": "Tarea actualizado",
+                        "description": "Tarea actualizada",
                         "content": {
                             "application/json": {
                                 "schema": {
